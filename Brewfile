@@ -25,6 +25,7 @@ cask install phpstorm
 cask install macvim
 cask install iterm2
 cask install vagrant
+cask install packer
 cask install kobito
 cask install caffeine
 cask install alfred
