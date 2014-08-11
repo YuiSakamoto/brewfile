@@ -14,7 +14,7 @@ tap sanemat/font
 install brew-cask
 
 # cli app
-install rbenv ruby-build zsh git sl ctags mysql tmux openssl ricty cmake fish wget curl cmake libtool automake tig ag z cmatrix tree vim wget tree
+install rbenv ruby-build zsh git sl ctags mysql tmux openssl ricty cmake fish wget curl cmake libtool automake tig ag z cmatrix tree vim wget tree w3m
 
 # Develop
 cask install java
