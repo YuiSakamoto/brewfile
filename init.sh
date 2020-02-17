@@ -1,3 +1,4 @@
 #!/bin/sh
-ln -s `dirname $0`/Brewfile ~/.Brewfile
+SCRIPT_DIR=$(cd $(dirname $0); pwd)
+ln -nfs $SCRIPT_DIR/Brewfile $HOME/.Brewfile
 
