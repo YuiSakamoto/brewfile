@@ -29,5 +29,6 @@ cask "shiftit"
 cask "skype"
 cask "visual-studio-code"
 cask "google-cloud-sdk"
+cask "notion"
 mas "Slack", id: 803453959
 mas "Magnet", id: 441258766
