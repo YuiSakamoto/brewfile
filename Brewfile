@@ -30,5 +30,7 @@ cask "skype"
 cask "visual-studio-code"
 cask "google-cloud-sdk"
 cask "notion"
+cask "discord"
+cask "sequel-pro"
 mas "Slack", id: 803453959
 mas "Magnet", id: 441258766
