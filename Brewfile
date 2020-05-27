@@ -32,5 +32,6 @@ cask "google-cloud-sdk"
 cask "notion"
 cask "discord"
 cask "sequel-pro"
+cask "deepl"
 mas "Slack", id: 803453959
 mas "Magnet", id: 441258766
