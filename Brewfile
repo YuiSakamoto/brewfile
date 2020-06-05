@@ -1,4 +1,7 @@
 cask_args appdir: "/Applications"
+
+tap "homebrew/cask-fonts"
+
 brew "curl"
 brew "git"
 brew "ghq"
@@ -33,5 +36,8 @@ cask "notion"
 cask "discord"
 cask "sequel-pro"
 cask "deepl"
+cask "font-ricty-diminished"
+cask "font-noto-sans-cjk-jp"
+cask "font-source-code-pro-for-powerline"
 mas "Slack", id: 803453959
 mas "Magnet", id: 441258766
