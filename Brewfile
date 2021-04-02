@@ -1,6 +1,7 @@
 cask_args appdir: "/Applications"
 
 tap "homebrew/cask-fonts"
+tap "dart-lang/dart"
 
 brew "curl"
 brew "git"
@@ -22,6 +23,7 @@ brew "plantuml"
 brew "anyenv"
 brew "peco"
 brew "reattach-to-user-namespace"
+brew "dart"
 cask "alfred"
 cask "docker"
 cask "firefox"
