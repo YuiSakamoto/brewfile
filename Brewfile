@@ -1,49 +1,145 @@
 cask_args appdir: "/Applications"
 
-tap "homebrew/cask-fonts"
-tap "dart-lang/dart"
+# Tap homebrew
+tap 'homebrew/cask'
+tap 'homebrew/cask-drivers'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/core'
+tap 'homebrew/boneyard'
+tap 'homebrew/dev-tools'
+tap 'homebrew/bundle'
+tap 'homebrew/services'
 
-brew "curl"
-brew "git"
-brew "ghq"
-brew "hub"
-brew "gh"
 brew "jq"
 brew "openssl"
 brew "terminal-notifier"
-brew "tmux"
+brew "graphviz"
+brew "plantuml"
+
+brew 'go'
+brew 'rust'
+
+brew "anyenv"
+brew "peco"
+
+brew 'terraform'
+brew 'kubectl'
+brew 'minikube'
+
+cask "alfred"
+cask "firefox"
+cask "google-chrome"
+cask "google-japanese-ime"
+
+cask "intellij-idea"
+cask 'phpstorm'
+cask "iterm2"
+cask "warp"
+
+cask "java"
+cask "karabiner-elements"
+cask "clipy"
+cask "shiftit"
+cask "visual-studio-code"
+cask "google-cloud-sdk"
+cask "notion"
+cask "sequel-pro"
+cask "deepl"
+cask "font-ricty-diminished"
+cask "font-noto-sans-cjk-jp"
+cask "font-source-code-pro-for-powerline"
+cask 'kindle'
+cask 'bartender'
+cask 'github'
+mas "Magnet", id: 441258766
+
+##
+# Editor & shell
+##
 brew "tree"
 brew "zplug"
 brew "zsh"
 brew "fish"
 brew "fzf"
 brew "nvim"
-brew "graphviz"
-brew "plantuml"
-brew "anyenv"
-brew "peco"
-brew "reattach-to-user-namespace"
-brew "dart"
-cask "alfred"
-cask "docker"
-cask "firefox"
-cask "google-chrome"
-cask "google-japanese-ime"
-cask "intellij-idea"
-cask "iterm2"
-cask "java"
-cask "karabiner-elements"
-cask "clipy"
-cask "shiftit"
-cask "skype"
-cask "visual-studio-code"
-cask "google-cloud-sdk"
-cask "notion"
-cask "discord"
-cask "sequel-pro"
-cask "deepl"
-cask "font-ricty-diminished"
-cask "font-noto-sans-cjk-jp"
-cask "font-source-code-pro-for-powerline"
+
+# Tmux is a newer terminal multiplexer.
+brew 'pkg-config', link: true
+brew 'tmux'
+brew 'reattach-to-user-namespace'
+
+# curl is a command line tool for transferring data with URL syntax.
+brew 'curl', link: true
+
+# Wget is a free software package for retrieving files using HTTP and FTP.
+brew 'wget'
+# ngrok opens a secure tunnel to localhost
+cask 'ngrok'
+
+##
+# Version control(git
+##
+brew "git"
+brew "ghq"
+brew "hub"
+brew "gh"
+
+# 1password is a password manager
+cask '1password'
+
+##
+# Chat
+##
+
+# Discord chat
+cask 'discord'
+
+# Slack chat client
 mas "Slack", id: 803453959
-mas "Magnet", id: 441258766
+
+##
+# GNU command line tools
+#
+# If you are moving onto macOS from GNU/Linux, then you would probably
+# find out that the command line tools shipped with macOS are not as
+# powerful and easy to use as the tools in Linux. The reason is that
+# macOS uses the BSD version command line tools, which are different
+# from the Linux version.
+#
+# Note: if you choose to replace the macOS commands with GNU commands,
+# then be aware that you may have some compatibility issues with shell
+# scripts written specifically for macOS.
+#
+# If you like using man pages, then you may also want to add an
+# itemto the to the MANPATH environmental variable:
+#
+#     $HOMEBREW_PREFIX/opt/coreutils/libexec/gnuman
+#
+# For more about the GNU command line tools and brew, see this:
+# https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/
+##
+
+# Basic file, shell and text manipulation utilities of the GNU operating system.
+brew 'coreutils'
+
+brew 'binutils'
+brew 'diffutils'
+brew 'ed'
+brew 'findutils'
+brew 'gawk'
+brew 'gnu-indent'
+brew 'gnu-sed'
+brew 'gnu-tar'
+brew 'gnu-which'
+brew 'gnutls'
+brew 'gzip'
+brew 'watch'
+brew 'wdiff'
+
+##
+# docker
+##
+# Compose is a tool for defining and running multi-container Docker applications.
+cask 'docker'
+brew 'docker-compose'
