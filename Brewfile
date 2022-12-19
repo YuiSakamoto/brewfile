@@ -25,6 +25,11 @@ brew 'goenv'
 brew "peco"
 
 brew 'terraform'
+brew "terraformer"
+brew "terraforming"
+brew "tfenv"
+brew "tflint"
+
 brew 'kubectl'
 brew 'minikube'
 
