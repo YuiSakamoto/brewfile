@@ -6,11 +6,10 @@ tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/core'
-tap 'homebrew/boneyard'
-tap 'homebrew/dev-tools'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
+brew "fontforge"
 brew "jq"
 brew "openssl"
 brew "terminal-notifier"
@@ -19,17 +18,21 @@ brew "plantuml"
 
 brew 'go'
 brew 'rust'
+brew 'deno'
 
 brew "anyenv"
+brew 'goenv'
 brew "peco"
 
 brew 'terraform'
 brew 'kubectl'
 brew 'minikube'
 
+brew 'awscli'
+
 cask "alfred"
 cask "firefox"
-cask "google-chrome"
+# cask "google-chrome"
 cask "google-japanese-ime"
 
 cask "intellij-idea"
@@ -37,7 +40,6 @@ cask 'phpstorm'
 cask "iterm2"
 cask "warp"
 
-cask "java"
 cask "karabiner-elements"
 cask "clipy"
 cask "shiftit"
@@ -49,6 +51,7 @@ cask "deepl"
 cask "font-ricty-diminished"
 cask "font-noto-sans-cjk-jp"
 cask "font-source-code-pro-for-powerline"
+cask "fontforge"
 cask 'kindle'
 cask 'bartender'
 cask 'github'
@@ -57,6 +60,7 @@ mas "Magnet", id: 441258766
 ##
 # Editor & shell
 ##
+brew "bash"
 brew "tree"
 brew "zplug"
 brew "zsh"
@@ -96,7 +100,7 @@ cask '1password'
 cask 'discord'
 
 # Slack chat client
-mas "Slack", id: 803453959
+# mas "Slack", id: 803453959
 
 ##
 # GNU command line tools
