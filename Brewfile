@@ -15,6 +15,7 @@ brew "openssl"
 brew "terminal-notifier"
 brew "graphviz"
 brew "plantuml"
+brew "mycli"
 
 brew 'go'
 brew 'rust'
@@ -23,6 +24,7 @@ brew 'deno'
 brew "anyenv"
 brew 'goenv'
 brew "peco"
+brew "asdf"
 
 brew 'terraform'
 brew "terraformer"
@@ -36,6 +38,8 @@ brew 'minikube'
 brew 'awscli'
 
 cask "alfred"
+# refs: https://zenn.dev/yum3/articles/i_raycast_or_alfred
+cask "raycast"
 cask "firefox"
 # cask "google-chrome"
 cask "google-japanese-ime"
@@ -44,15 +48,22 @@ cask "intellij-idea"
 cask 'phpstorm'
 cask "iterm2"
 cask "warp"
+cask "postman"
+cask "insomnia"
 
 cask "karabiner-elements"
 cask "clipy"
-cask "shiftit"
+cask "spectacle"
+cask "skitch"
+cask "gyazo"
+cask "appcleaner"
 cask "visual-studio-code"
 cask "google-cloud-sdk"
 cask "notion"
 cask "sequel-pro"
 cask "deepl"
+cask "grammarly"
+cask "grammarly-desktop"
 cask "font-ricty-diminished"
 cask "font-noto-sans-cjk-jp"
 cask "font-source-code-pro-for-powerline"
@@ -96,6 +107,7 @@ brew "gh"
 
 # 1password is a password manager
 cask '1password'
+cask '1password-cli'
 
 ##
 # Chat
