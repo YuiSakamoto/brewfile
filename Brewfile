@@ -8,6 +8,7 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
+tap 'wez/wezterm'
 
 brew "fontforge"
 brew "jq"
@@ -48,6 +49,8 @@ cask "intellij-idea"
 cask 'phpstorm'
 cask "iterm2"
 cask "warp"
+#cask "hyper"
+cask "wez/wezterm/wezterm"
 cask "postman"
 cask "insomnia"
 
