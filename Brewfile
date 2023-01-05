@@ -86,6 +86,7 @@ brew "zsh"
 brew "fish"
 brew "fzf"
 brew "nvim"
+brew "starship"
 
 # Tmux is a newer terminal multiplexer.
 brew 'pkg-config', link: true
