@@ -74,6 +74,7 @@ cask "fontforge"
 cask 'kindle'
 cask 'bartender'
 cask 'github'
+cask 'jasper'
 mas "Magnet", id: 441258766
 
 ##
