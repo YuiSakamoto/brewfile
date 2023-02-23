@@ -42,7 +42,7 @@ cask "alfred"
 # refs: https://zenn.dev/yum3/articles/i_raycast_or_alfred
 cask "raycast"
 cask "firefox"
-# cask "google-chrome"
+cask "google-chrome"
 cask "google-japanese-ime"
 
 cask "intellij-idea"
@@ -75,6 +75,7 @@ cask 'kindle'
 cask 'bartender'
 cask 'github'
 cask 'jasper'
+cask 'zotero'
 mas "Magnet", id: 441258766
 
 ##
