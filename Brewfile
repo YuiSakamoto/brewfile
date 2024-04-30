@@ -22,10 +22,11 @@ brew 'go'
 brew 'rust'
 brew 'deno'
 
-brew "anyenv"
+# brew "anyenv"
 brew 'goenv'
 brew "peco"
 brew "asdf"
+brew "pnpm"
 
 brew 'terraform'
 brew "terraformer"
@@ -43,7 +44,7 @@ cask "alfred"
 cask "raycast"
 cask "firefox"
 cask "google-chrome"
-cask "google-japanese-ime"
+# cask "google-japanese-ime"
 
 cask "intellij-idea"
 cask 'phpstorm'
