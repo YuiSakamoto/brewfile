@@ -111,6 +111,7 @@ brew "git"
 brew "ghq"
 brew "hub"
 brew "gh"
+brew "tig"
 
 # 1password is a password manager
 cask '1password'
