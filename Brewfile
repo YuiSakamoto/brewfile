@@ -17,6 +17,7 @@ brew "terminal-notifier"
 brew "graphviz"
 brew "plantuml"
 brew "mycli"
+brew "libpq"
 
 brew 'go'
 brew 'rust'
