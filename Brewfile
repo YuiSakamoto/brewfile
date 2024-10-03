@@ -77,6 +77,8 @@ cask 'bartender'
 cask 'github'
 cask 'jasper'
 cask 'zotero'
+cast 'popsql'
+cask 'dbeaver-community'
 mas "Magnet", id: 441258766
 
 ##
