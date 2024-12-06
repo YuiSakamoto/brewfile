@@ -18,6 +18,12 @@ brew "graphviz"
 brew "plantuml"
 brew "mycli"
 brew "libpq"
+brew "eza"
+brew "aicommits"
+brew "bat"
+brew "fd"
+brew "usage"
+brew "ripgrep"
 
 brew 'go'
 brew 'rust'
@@ -28,6 +34,7 @@ brew 'goenv'
 brew "peco"
 brew "asdf"
 brew "pnpm"
+brew "mise"
 
 brew 'terraform'
 brew "terraformer"
@@ -65,6 +72,7 @@ cask "appcleaner"
 cask "visual-studio-code"
 cask "google-cloud-sdk"
 cask "notion"
+cask "notion-calendar"
 cask "sequel-pro"
 cask "deepl"
 cask "grammarly"
@@ -79,6 +87,7 @@ cask 'github'
 cask 'jasper'
 cask 'zotero'
 cask 'dbeaver-community'
+cask 'obsidian'
 mas "Magnet", id: 441258766
 
 ##
