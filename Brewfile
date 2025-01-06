@@ -60,6 +60,7 @@ cask "iterm2"
 cask "warp"
 #cask "hyper"
 cask "wez/wezterm/wezterm"
+cask "ghostty"
 cask "postman"
 cask "insomnia"
 
