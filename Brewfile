@@ -89,6 +89,7 @@ cask 'jasper'
 cask 'zotero'
 cask 'dbeaver-community'
 cask 'obsidian'
+cask 'anki'
 mas "Magnet", id: 441258766
 
 ##
