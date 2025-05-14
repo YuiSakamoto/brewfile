@@ -24,6 +24,7 @@ brew "bat"
 brew "fd"
 brew "usage"
 brew "ripgrep"
+brew "marp-cli"
 
 brew 'go'
 brew 'rust'
