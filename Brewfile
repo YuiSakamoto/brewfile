@@ -29,6 +29,7 @@ brew "marp-cli"
 brew 'go'
 brew 'rust'
 brew 'deno'
+brew 'mise'
 
 # brew "anyenv"
 brew 'goenv'
@@ -57,6 +58,7 @@ cask "google-chrome"
 
 cask "intellij-idea"
 cask 'phpstorm'
+cask "zed"
 cask "iterm2"
 cask "warp"
 #cask "hyper"
