@@ -9,6 +9,7 @@ tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 tap 'wez/wezterm'
+tap 'delphinus/claude-code-hooks'
 
 brew "fontforge"
 brew "jq"
@@ -25,6 +26,7 @@ brew "fd"
 brew "usage"
 brew "ripgrep"
 brew "marp-cli"
+brew "delphinus/claude-code-hooks/claude-code-hooks"
 
 brew 'go'
 brew 'rust'
